@@ -11,7 +11,6 @@ void ASpecialBlock::BeginPlay()
 	if (BombTypeSprites.Contains(Type))
 	{
 		GetRenderComponent()->SetSprite(BombTypeSprites[Type]);
-		UE_LOG(LogTemp, Warning, TEXT("trovato"));
 	}
 	else
 	{
